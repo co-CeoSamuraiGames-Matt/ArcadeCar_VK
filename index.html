@@ -460,14 +460,14 @@
                     }
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/VK.loader.js'
+                    unityLoader.src = 'Build/ArcadeCar_VK.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/VK.data.br',
-                                frameworkUrl: 'Build/VK.framework.js.br',
-                                codeUrl: 'Build/VK.wasm.br',
+                                dataUrl: 'Build/ArcadeCar_VK.data.unityweb',
+                                frameworkUrl: 'Build/ArcadeCar_VK.framework.js.unityweb',
+                                codeUrl: 'Build/ArcadeCar_VK.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'DefaultCompany',
                                 productName: 'ArcadeCar_VK',
